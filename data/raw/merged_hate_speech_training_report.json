@@ -1,0 +1,34 @@
+{
+  "inputs": {
+    "combined": "/Users/chitraksh.verma/Downloads/combined_hate_speech_dataset 2.csv",
+    "indo": "/Users/chitraksh.verma/Downloads/Indo-HateSpeech_Dataset.csv"
+  },
+  "datasets": {
+    "combined_hate_speech_dataset_2": {
+      "total_rows": 29550,
+      "kept_rows": 29512,
+      "dropped_duplicates": 38,
+      "label_counts": {
+        "0": 15802,
+        "1": 13710
+      }
+    },
+    "indo_hatespeech_dataset": {
+      "total_rows": 77926,
+      "kept_rows": 57609,
+      "dropped_duplicates": 18957,
+      "dropped_empty_text": 1360,
+      "label_counts": {
+        "0": 45091,
+        "1": 12518
+      }
+    }
+  },
+  "merged": {
+    "rows": 87121,
+    "label_counts": {
+      "0": 60893,
+      "1": 26228
+    }
+  }
+}

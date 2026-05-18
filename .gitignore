@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+*.zip
+*.pkl
+*.safetensors
+
+transformer_model/
+baseline_model/
+models/
+
+datasets/raw/
